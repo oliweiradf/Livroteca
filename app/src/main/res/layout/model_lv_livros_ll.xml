@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvIdLivrosLV"
+        android:id="@+id/tvIdLivrosLV"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="tvAutorLV"
+        android:id="@+id/tvAutorLV"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvIdLivrosLV"
+        android:layout_toEndOf="@+id/tvIdLivrosLV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="tvTituloLV"
+        android:id="@+id/tvTituloLV"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEdicaoLV"
+        android:id="@+id/tvEdicaoLV"
+        android:layout_below="@+id/tvAutorLV"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvAnoPublicacaoLV"
+        android:id="@+id/tvAnoPublicacaoLV"
+        android:layout_below="@+id/tvAutorLV"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEditoraLV"
+        android:id="@+id/tvEditoraLV"
+        android:layout_below="@+id/tvEdicaoLV"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEstadoLV"
+        android:id="@+id/tvEstadoLV"
+        android:layout_below="@+id/tvEdicaoLV"
+        android:layout_toEndOf="@+id/textView3" />
+
+</LinearLayout>

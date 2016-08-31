@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="tvAutorLV"
+        android:id="@+id/tvAutorLV"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toEndOf="@+id/tvIdLivrosLV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" - "
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvAutorLV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="tvTituloLV"
+        android:id="@+id/tvTituloLV"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEdicaoLV"
+        android:id="@+id/tvEdicaoLV"
+        android:layout_below="@+id/tvAutorLV"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" - "
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvAutorLV"
+        android:layout_toEndOf="@+id/tvEdicaoLV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvAnoPublicacaoLV"
+        android:id="@+id/tvAnoPublicacaoLV"
+        android:layout_below="@+id/tvAutorLV"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEditoraLV"
+        android:id="@+id/tvEditoraLV"
+        android:layout_below="@+id/tvEdicaoLV"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" - "
+        android:id="@+id/textView3"
+        android:layout_below="@+id/tvEdicaoLV"
+        android:layout_toEndOf="@+id/tvEditoraLV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvEstadoLV"
+        android:id="@+id/tvEstadoLV"
+        android:layout_below="@+id/tvEdicaoLV"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="tvIdLivrosLV"
+        android:id="@+id/tvIdLivrosLV"
+        android:layout_below="@+id/tvEditoraLV"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
